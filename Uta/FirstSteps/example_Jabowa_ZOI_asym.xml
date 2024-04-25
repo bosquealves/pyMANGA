@@ -23,7 +23,7 @@
         <group>
             <name> Initial </name>
             <species> Avicennia </species>
-            <vegetation_model_type> Bettina </vegetation_model_type>
+            <vegetation_model_type> Kiwi </vegetation_model_type>
             <mortality>NoGrowth</mortality>
             <distribution>
                 <type> Random </type>
@@ -51,7 +51,7 @@
         <type> OneFile </type>
         <output_each_nth_timestep>[10]</output_each_nth_timestep>
         <allow_previous_output>True</allow_previous_output>
-        <output_dir>Benchmarks/ExampleSetups/FirstApplication/ModelOutput/</output_dir>
+        <output_dir>Uta/FirstSteps/ModelOutput/</output_dir>
         <geometry_output> r_stem </geometry_output>
         <geometry_output> h_stem </geometry_output>
         <geometry_output> r_crown </geometry_output>
@@ -59,7 +59,6 @@
         <growth_output> growth </growth_output>
         <growth_output> ag_resources </growth_output>
         <growth_output> bg_resources </growth_output>
-        <growth_output> salinity </growth_output>
         <growth_output> ag_factor </growth_output>
         <growth_output> bg_factor </growth_output>
     </output>
