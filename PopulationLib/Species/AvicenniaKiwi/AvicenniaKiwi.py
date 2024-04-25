@@ -12,6 +12,7 @@ def createPlant():
     parameter = {}
     geometry["height"] = 0                              # m
     geometry["r_stem"] = 0.005                          # m
+    geometry["r_crown"] = 0.22                          # m
     parameter["salt_effect_d"] = -0.18
     parameter["salt_effect_ui"] = 72
     parameter["max_height"] = 3500                      # cm
